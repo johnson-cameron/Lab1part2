@@ -1,0 +1,176 @@
+.header{
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 10px;
+    color: #000;
+    
+}
+
+.container {
+    max-width: 1400px;
+    width: 90%; 
+    margin: 0 auto;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f9fafc;
+}
+
+h4{
+    width: 100px;
+    color: #000;
+}
+
+a{
+    text-decoration: none;
+    color: #69696a;
+    width: 80%;
+}
+
+ul{
+    list-style-type: none;
+    color: #69696a;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    padding: 10px 0;
+    margin: 0;
+    width: 100%;
+}
+
+p{
+    margin: 10px;
+    border-left: solid 2px;
+    padding-left: 20px;
+    color: #69696a;
+    border-color: #69696a;
+    margin-bottom: 50px;
+}
+
+.scroll-element{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10pt;
+    text-align: center;
+    width: 100%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    display: block;
+}
+
+#hire-us{
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: black;
+    color: white;
+    text-decoration-style: none;
+    border-radius: 25px;
+    display: block;
+    width: 100%;
+}
+
+.pink{
+    display: none;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: rgba(247, 136, 167, 0.6);
+    top: 40px;
+    right: 100px;
+    position: absolute;
+}
+
+.purple{
+    display: none;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: rgba(207, 130, 213, 0.6);
+    top: 60px;
+    right: 30px;
+    position: absolute;
+}
+
+.orange{
+    display: none;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color:rgba(247, 193, 162, 0.7);
+    top: 140px;
+    right: 30px;
+    position: absolute;
+}
+
+h3{
+    font-size: 26px;
+    margin-left: 5px;
+}
+
+@media only screen and (min-width: 768px) {
+    
+    .header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .p-circle{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .right-middle{
+        width: 50%;
+        position: relative;
+    }
+
+    .left-middle{
+        width: 50%;
+        
+    }
+
+    h4{
+        margin: 0;
+        padding: 0;
+    }
+
+    ul{
+
+        display: flex;
+        right: 10px;
+        align-content: center;
+    }
+    li{
+        width: 80px;
+        margin: auto;
+    }
+    .orange{
+        display: inherit;
+    }
+    .purple{
+        display: inherit;
+    }
+    .pink{
+        display: inherit;
+    }
+    .scroll-element{
+        position: fixed;
+        left: 50%;
+        width: 120px;
+        bottom: 50px;
+    }
+    .hire-us{
+        width: 80px;
+        
+    }
+
+
+  }
